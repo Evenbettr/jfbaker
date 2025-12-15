@@ -1,10 +1,50 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>jfbaker.com</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JF Baker</title>
+  <meta name="description" content="Projects, experiments, and notes by JF Baker." />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>It works.</h1>
-  <p>Hosted on GitHub Pages.</p>
-</body>
-</html>
+  <header class="wrap header">
+    <div class="brand">
+      <div class="avatar" aria-hidden="true">JF</div>
+      <div>
+        <h1>JF Baker</h1>
+        <p class="tagline">Projects, experiments, and other internet debris.</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h2>Hey. I build things.</h2>
+      <p>
+        This is the front door. The good stuff is below — working demos, little tools,
+        and whatever I’m currently tinkering with.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn ghost" href="https://github.com/Evenbettr" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-title">
+        <h3>Projects</h3>
+        <p>Quick links to the live versions.</p>
+      </div>
+
+      <div class="grid">
+        <!-- Project 1 -->
+        <article class="card">
