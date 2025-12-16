@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JF Baker – Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="retro">
+  <div class="wrap">
+    <header class="retro-header">
+      <h1>📸 THE PHOTO PIT</h1>
+      <p><a href="index.html">← back to home</a></p>
+    </header>
+
+    <main>
+      <div class="gallery">
+        <!-- Repeat these -->
+        <a href="photos/001.jpg"><img src="photos/001.jpg" alt="Photo 001"></a>
+        <a href="photos/002.jpg"><img src="photos/002.jpg" alt="Photo 002"></a>
+        <a href="photos/003.jpg"><img src="photos/003.jpg" alt="Photo 003"></a>
+        <!-- ... -->
+      </div>
+    </main>
+  </div>
+</body>
+</html>
