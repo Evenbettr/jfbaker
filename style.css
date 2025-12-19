@@ -14,12 +14,46 @@ body {
   align-items: center;
   text-align: center;
 }
+.page {
+  max-width: 720px;
+  padding: 60px 40px;
+}
+.corner {
+  position: fixed;
+  opacity: 0.35;
+  pointer-events: none;
+}
 
 body.retro{
   margin:0;
   font-family: "Courier New", Courier, monospace;
   background: #000;
   color: #0f0;
+}
+h1, h2, p, footer {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 12px 28px;
+  border: 1px solid var(--georgetown-green);
+  color: var(--georgetown-green);
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  background-color: var(--georgetown-green);
+  color: var(--bone);
+}
+.divider {
+  width: 120px;
+  height: 1px;
+  background-color: var(--georgetown-green);
+  margin: 30px auto;
+  opacity: 0.6;
 }
 
 .wrap{
