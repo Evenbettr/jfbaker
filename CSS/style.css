@@ -5,14 +5,16 @@
   "Garamond",
   "Times New Roman",
   serif;
---bg: #F2EEDF;
+}
+@font-face {--bg: #F2EEDF;
 --green-main: #0B3A1E;
 --green-soft: #3A5F3B;
 --gold: #C7B36A;
 --gold-dark: #9C8A3C;
 --email: #9A6B1F;
 --black: #000000;
-}
+  font-family: 'EB Garamond';
+  src: url('https://fonts.gstatic.com/s/ebgaramond/v13/2fFq7KzJ5QzJ5QzJ5QzJ5
 body {
   margin: 0;
   min-height: 100vh;
